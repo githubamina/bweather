@@ -7,21 +7,67 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D7C9D2A4557486F3DEC5F15B /* libPods-blinxweather.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FDBEA3D9290C498620E9DAA /* libPods-blinxweather.a */; };
+		F50FC9F121C91B69008FAE31 /* HourlyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50FC9F021C91B69008FAE31 /* HourlyCollectionViewCell.swift */; };
+		F50FC9F721C9E0B9008FAE31 /* HourlyWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50FC9F621C9E0B9008FAE31 /* HourlyWeather.swift */; };
+		F50FC9F921CA0A0E008FAE31 /* Ellennn.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F50FC9F821CA0A0D008FAE31 /* Ellennn.ttf */; };
+		F50FC9FB21CA0A1B008FAE31 /* fonte_Kaus.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F50FC9FA21CA0A1B008FAE31 /* fonte_Kaus.ttf */; };
+		F50FC9FD21CA0A2A008FAE31 /* Kiki.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F50FC9FC21CA0A29008FAE31 /* Kiki.ttf */; };
+		F517E51621551B0D005B1434 /* WeatherTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F517E51521551B0D005B1434 /* WeatherTableViewController.swift */; };
+		F517E52121553687005B1434 /* clear-night.png in Resources */ = {isa = PBXBuildFile; fileRef = F517E51721553687005B1434 /* clear-night.png */; };
+		F517E52221553687005B1434 /* clear-day.png in Resources */ = {isa = PBXBuildFile; fileRef = F517E51821553687005B1434 /* clear-day.png */; };
+		F517E52321553687005B1434 /* sleet.png in Resources */ = {isa = PBXBuildFile; fileRef = F517E51921553687005B1434 /* sleet.png */; };
+		F517E52421553687005B1434 /* cloudy.png in Resources */ = {isa = PBXBuildFile; fileRef = F517E51A21553687005B1434 /* cloudy.png */; };
+		F517E52521553687005B1434 /* snow.png in Resources */ = {isa = PBXBuildFile; fileRef = F517E51B21553687005B1434 /* snow.png */; };
+		F517E52621553687005B1434 /* fog.png in Resources */ = {isa = PBXBuildFile; fileRef = F517E51C21553687005B1434 /* fog.png */; };
+		F517E52721553687005B1434 /* partly-cloudy-night.png in Resources */ = {isa = PBXBuildFile; fileRef = F517E51D21553687005B1434 /* partly-cloudy-night.png */; };
+		F517E52821553687005B1434 /* partly-cloudy-day.png in Resources */ = {isa = PBXBuildFile; fileRef = F517E51E21553687005B1434 /* partly-cloudy-day.png */; };
+		F517E52921553687005B1434 /* rain.png in Resources */ = {isa = PBXBuildFile; fileRef = F517E51F21553687005B1434 /* rain.png */; };
+		F517E52A21553687005B1434 /* wind.png in Resources */ = {isa = PBXBuildFile; fileRef = F517E52021553687005B1434 /* wind.png */; };
+		F517E52C2155386B005B1434 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F517E52B2155386B005B1434 /* ViewController.swift */; };
 		F521774E21549BC700B7B22E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F521774D21549BC700B7B22E /* AppDelegate.swift */; };
-		F521775021549BC700B7B22E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F521774F21549BC700B7B22E /* ViewController.swift */; };
 		F521775321549BC700B7B22E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F521775121549BC700B7B22E /* Main.storyboard */; };
 		F521775521549BC700B7B22E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F521775421549BC700B7B22E /* Assets.xcassets */; };
 		F521775821549BC700B7B22E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F521775621549BC700B7B22E /* LaunchScreen.storyboard */; };
+		F521776221549BEB00B7B22E /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = F521776121549BEB00B7B22E /* Weather.swift */; };
+		F533537A21C49417007A0738 /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = F533537921C49417007A0738 /* CurrentWeather.swift */; };
+		F542770921C3DF0A00C76195 /* WeeklyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F542770821C3DF0A00C76195 /* WeeklyTableViewCell.swift */; };
+		F542770B21C3E2C300C76195 /* WeeklyWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = F542770A21C3E2C300C76195 /* WeeklyWeather.swift */; };
+		F5D40D4921C28FC3007574AE /* ForecastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D40D4821C28FC3007574AE /* ForecastViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		12A628AF4BC5ADDB10EFBF69 /* Pods-blinxweather.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-blinxweather.release.xcconfig"; path = "Pods/Target Support Files/Pods-blinxweather/Pods-blinxweather.release.xcconfig"; sourceTree = "<group>"; };
+		5FDBEA3D9290C498620E9DAA /* libPods-blinxweather.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-blinxweather.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8045F49BF2BCA89F9C0C1D5D /* Pods-blinxweather.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-blinxweather.debug.xcconfig"; path = "Pods/Target Support Files/Pods-blinxweather/Pods-blinxweather.debug.xcconfig"; sourceTree = "<group>"; };
+		F50FC9F021C91B69008FAE31 /* HourlyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourlyCollectionViewCell.swift; sourceTree = "<group>"; };
+		F50FC9F621C9E0B9008FAE31 /* HourlyWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourlyWeather.swift; sourceTree = "<group>"; };
+		F50FC9F821CA0A0D008FAE31 /* Ellennn.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ellennn.ttf; sourceTree = "<group>"; };
+		F50FC9FA21CA0A1B008FAE31 /* fonte_Kaus.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = fonte_Kaus.ttf; sourceTree = "<group>"; };
+		F50FC9FC21CA0A29008FAE31 /* Kiki.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Kiki.ttf; sourceTree = "<group>"; };
+		F517E51521551B0D005B1434 /* WeatherTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherTableViewController.swift; sourceTree = "<group>"; };
+		F517E51721553687005B1434 /* clear-night.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clear-night.png"; sourceTree = "<group>"; };
+		F517E51821553687005B1434 /* clear-day.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clear-day.png"; sourceTree = "<group>"; };
+		F517E51921553687005B1434 /* sleet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sleet.png; sourceTree = "<group>"; };
+		F517E51A21553687005B1434 /* cloudy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cloudy.png; sourceTree = "<group>"; };
+		F517E51B21553687005B1434 /* snow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snow.png; sourceTree = "<group>"; };
+		F517E51C21553687005B1434 /* fog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fog.png; sourceTree = "<group>"; };
+		F517E51D21553687005B1434 /* partly-cloudy-night.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "partly-cloudy-night.png"; sourceTree = "<group>"; };
+		F517E51E21553687005B1434 /* partly-cloudy-day.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "partly-cloudy-day.png"; sourceTree = "<group>"; };
+		F517E51F21553687005B1434 /* rain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rain.png; sourceTree = "<group>"; };
+		F517E52021553687005B1434 /* wind.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wind.png; sourceTree = "<group>"; };
+		F517E52B2155386B005B1434 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F521774A21549BC700B7B22E /* blinxweather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = blinxweather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F521774D21549BC700B7B22E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F521774F21549BC700B7B22E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F521775221549BC700B7B22E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F521775421549BC700B7B22E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F521775721549BC700B7B22E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F521775921549BC700B7B22E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F521776121549BEB00B7B22E /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		F533537921C49417007A0738 /* CurrentWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
+		F542770821C3DF0A00C76195 /* WeeklyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyTableViewCell.swift; sourceTree = "<group>"; };
+		F542770A21C3E2C300C76195 /* WeeklyWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyWeather.swift; sourceTree = "<group>"; };
+		F5D40D4821C28FC3007574AE /* ForecastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +75,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7C9D2A4557486F3DEC5F15B /* libPods-blinxweather.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		755BDD486C0C0665B4C59316 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8045F49BF2BCA89F9C0C1D5D /* Pods-blinxweather.debug.xcconfig */,
+				12A628AF4BC5ADDB10EFBF69 /* Pods-blinxweather.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		76C33FAFBFB44D0C1B2E0E8B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5FDBEA3D9290C498620E9DAA /* libPods-blinxweather.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F521774121549BC700B7B22E = {
 			isa = PBXGroup;
 			children = (
+				F517E51521551B0D005B1434 /* WeatherTableViewController.swift */,
 				F521774C21549BC700B7B22E /* blinxweather */,
 				F521774B21549BC700B7B22E /* Products */,
+				755BDD486C0C0665B4C59316 /* Pods */,
+				76C33FAFBFB44D0C1B2E0E8B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,12 +121,32 @@
 		F521774C21549BC700B7B22E /* blinxweather */ = {
 			isa = PBXGroup;
 			children = (
+				F50FC9F621C9E0B9008FAE31 /* HourlyWeather.swift */,
+				F542770821C3DF0A00C76195 /* WeeklyTableViewCell.swift */,
 				F521774D21549BC700B7B22E /* AppDelegate.swift */,
-				F521774F21549BC700B7B22E /* ViewController.swift */,
+				F521776121549BEB00B7B22E /* Weather.swift */,
+				F533537921C49417007A0738 /* CurrentWeather.swift */,
+				F542770A21C3E2C300C76195 /* WeeklyWeather.swift */,
 				F521775121549BC700B7B22E /* Main.storyboard */,
+				F50FC9FC21CA0A29008FAE31 /* Kiki.ttf */,
+				F50FC9FA21CA0A1B008FAE31 /* fonte_Kaus.ttf */,
+				F50FC9F821CA0A0D008FAE31 /* Ellennn.ttf */,
+				F50FC9F021C91B69008FAE31 /* HourlyCollectionViewCell.swift */,
+				F5D40D4821C28FC3007574AE /* ForecastViewController.swift */,
+				F517E51821553687005B1434 /* clear-day.png */,
 				F521775421549BC700B7B22E /* Assets.xcassets */,
+				F517E52021553687005B1434 /* wind.png */,
+				F517E51A21553687005B1434 /* cloudy.png */,
+				F517E51C21553687005B1434 /* fog.png */,
+				F517E51E21553687005B1434 /* partly-cloudy-day.png */,
+				F517E51721553687005B1434 /* clear-night.png */,
+				F517E51D21553687005B1434 /* partly-cloudy-night.png */,
+				F517E51F21553687005B1434 /* rain.png */,
+				F517E51921553687005B1434 /* sleet.png */,
+				F517E51B21553687005B1434 /* snow.png */,
 				F521775621549BC700B7B22E /* LaunchScreen.storyboard */,
 				F521775921549BC700B7B22E /* Info.plist */,
+				F517E52B2155386B005B1434 /* ViewController.swift */,
 			);
 			path = blinxweather;
 			sourceTree = "<group>";
@@ -71,9 +158,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F521775C21549BC700B7B22E /* Build configuration list for PBXNativeTarget "blinxweather" */;
 			buildPhases = (
+				5AFF2D0B721450A982EDF49B /* [CP] Check Pods Manifest.lock */,
 				F521774621549BC700B7B22E /* Sources */,
 				F521774721549BC700B7B22E /* Frameworks */,
 				F521774821549BC700B7B22E /* Resources */,
+				2F4113B6466E914A43192B0D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -97,6 +186,11 @@
 					F521774921549BC700B7B22E = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -123,7 +217,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F517E52621553687005B1434 /* fog.png in Resources */,
+				F517E52421553687005B1434 /* cloudy.png in Resources */,
+				F517E52121553687005B1434 /* clear-night.png in Resources */,
+				F50FC9F921CA0A0E008FAE31 /* Ellennn.ttf in Resources */,
+				F517E52521553687005B1434 /* snow.png in Resources */,
+				F517E52321553687005B1434 /* sleet.png in Resources */,
+				F517E52921553687005B1434 /* rain.png in Resources */,
+				F517E52221553687005B1434 /* clear-day.png in Resources */,
+				F517E52721553687005B1434 /* partly-cloudy-night.png in Resources */,
 				F521775821549BC700B7B22E /* LaunchScreen.storyboard in Resources */,
+				F50FC9FB21CA0A1B008FAE31 /* fonte_Kaus.ttf in Resources */,
+				F517E52A21553687005B1434 /* wind.png in Resources */,
+				F50FC9FD21CA0A2A008FAE31 /* Kiki.ttf in Resources */,
+				F517E52821553687005B1434 /* partly-cloudy-day.png in Resources */,
 				F521775521549BC700B7B22E /* Assets.xcassets in Resources */,
 				F521775321549BC700B7B22E /* Main.storyboard in Resources */,
 			);
@@ -131,12 +238,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2F4113B6466E914A43192B0D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-blinxweather/Pods-blinxweather-resources.sh",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-blinxweather/Pods-blinxweather-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5AFF2D0B721450A982EDF49B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-blinxweather-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F521774621549BC700B7B22E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F521775021549BC700B7B22E /* ViewController.swift in Sources */,
+				F521776221549BEB00B7B22E /* Weather.swift in Sources */,
+				F517E51621551B0D005B1434 /* WeatherTableViewController.swift in Sources */,
+				F50FC9F121C91B69008FAE31 /* HourlyCollectionViewCell.swift in Sources */,
+				F50FC9F721C9E0B9008FAE31 /* HourlyWeather.swift in Sources */,
+				F533537A21C49417007A0738 /* CurrentWeather.swift in Sources */,
+				F542770921C3DF0A00C76195 /* WeeklyTableViewCell.swift in Sources */,
+				F5D40D4921C28FC3007574AE /* ForecastViewController.swift in Sources */,
+				F542770B21C3E2C300C76195 /* WeeklyWeather.swift in Sources */,
+				F517E52C2155386B005B1434 /* ViewController.swift in Sources */,
 				F521774E21549BC700B7B22E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,11 +426,13 @@
 		};
 		F521775D21549BC700B7B22E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8045F49BF2BCA89F9C0C1D5D /* Pods-blinxweather.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3Y7FCHD943;
 				INFOPLIST_FILE = blinxweather/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.blinxwift.blinxweather;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -287,11 +443,13 @@
 		};
 		F521775E21549BC700B7B22E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12A628AF4BC5ADDB10EFBF69 /* Pods-blinxweather.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3Y7FCHD943;
 				INFOPLIST_FILE = blinxweather/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.blinxwift.blinxweather;
 				PRODUCT_NAME = "$(TARGET_NAME)";
